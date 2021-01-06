@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hs0W4ZQaRW/7VGGjg91rXJytMtE0zhZ0jrD68gaasI+DcIi5niTh0UEFrAeOktHlYgdbem3gcmiVHTfrWPB8+w==",
+  "success": true,
+  "projectFilePath": "/home/daniildenisyuk/projects/KPI_Labs/CSE/Lab4/IIG.BinaryFlag/IIG.BinaryFlag.csproj",
+  "expectedPackageFiles": [
+    "/home/daniildenisyuk/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "/home/daniildenisyuk/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.0/microsoft.netframework.referenceassemblies.net48.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

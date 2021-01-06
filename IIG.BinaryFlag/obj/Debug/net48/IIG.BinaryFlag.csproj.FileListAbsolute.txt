@@ -1,0 +1,8 @@
+/home/daniildenisyuk/projects/KPI_Labs/CSE/Lab4/IIG.BinaryFlag/bin/Debug/net48/IIG.BinaryFlag.dll
+/home/daniildenisyuk/projects/KPI_Labs/CSE/Lab4/IIG.BinaryFlag/bin/Debug/net48/IIG.BinaryFlag.pdb
+/home/daniildenisyuk/projects/KPI_Labs/CSE/Lab4/IIG.BinaryFlag/obj/Debug/net48/IIG.BinaryFlag.csprojAssemblyReference.cache
+/home/daniildenisyuk/projects/KPI_Labs/CSE/Lab4/IIG.BinaryFlag/obj/Debug/net48/IIG.BinaryFlag.AssemblyInfoInputs.cache
+/home/daniildenisyuk/projects/KPI_Labs/CSE/Lab4/IIG.BinaryFlag/obj/Debug/net48/IIG.BinaryFlag.AssemblyInfo.cs
+/home/daniildenisyuk/projects/KPI_Labs/CSE/Lab4/IIG.BinaryFlag/obj/Debug/net48/IIG.BinaryFlag.csproj.CoreCompileInputs.cache
+/home/daniildenisyuk/projects/KPI_Labs/CSE/Lab4/IIG.BinaryFlag/obj/Debug/net48/IIG.BinaryFlag.dll
+/home/daniildenisyuk/projects/KPI_Labs/CSE/Lab4/IIG.BinaryFlag/obj/Debug/net48/IIG.BinaryFlag.pdb
