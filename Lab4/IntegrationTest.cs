@@ -167,11 +167,11 @@ namespace IIG.IntegrationTest
         }
         
         [Theory]
-        [InlineData(10, false,0,2,0,0,  "TTFFFFFFFF", false)]
-        [InlineData(20, false, 7, 13, 0, 0, "FFFFFFFTTTTTTFFFFFFF", false)]
-        [InlineData(30, true, 0, 30, 3,13, "TTTFFFFFFFFFFTTTTTTTTTTTTTTTTT", false)]
-        [InlineData(30, false, 0, 30, 0, 0, "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", true)]
-        public void Test_MBF_To_DB(ulong l, bool v, ulong setRange1, ulong setRange2, ulong resetRange1, ulong resetRange2, string expectedStr, bool expectedVal)
+        [InlineData(10, false,0,2,0,0)]
+        [InlineData(20, false, 7, 13, 0, 0)]
+        [InlineData(30, true, 0, 30, 3,13)]
+        [InlineData(30, false, 0, 30, 0, 0)]
+        public void Test_MBF_To_DB(ulong l, bool v, ulong setRange1, ulong setRange2, ulong resetRange1, ulong resetRange2)
         {
             var mbf = new MultipleBinaryFlag(l,v);
             for (ulong i = setRange1; i < setRange2; i++)
@@ -188,8 +188,8 @@ namespace IIG.IntegrationTest
             string flagViewCheck;
             Nullable<bool> flagValueCheck;
             flagPoleDB.GetFlag(1, out flagViewCheck, out flagValueCheck);
-            Assert.Equal(expectedVal, flagValueCheck);
-            Assert.Equal(expectedStr, flagViewCheck);
+            Assert.Equal(flagValue, flagValueCheck);
+            Assert.Equal(flagView, flagViewCheck);
             new DatabaseConnection(appSettingsFlag).ExecSql("use [IIG.CoSWE.FlagPoleDB];delete from MultipleBinaryFlags; DBCC CHECKIDENT (MultipleBinaryFlags, RESEED, 0);");
         }
     }
